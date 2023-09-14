@@ -1,0 +1,152 @@
+<!doctype html>
+<html>
+<head> <!--Contains Metadata only. Little needs to be changed in this section-->
+<meta charset="utf-8">
+<title>Geoportfolio</title> <!--Changes the name on the tab-->
+	<link rel="stylesheet" href="geoportfoliocss.css"> <!--#ID# #CSS# Put the name of your CSS document and file extension in href e.g. href="geoportfolio.css"-->
+	<link rel="icon" type="image/x-icon" href="favicon.png"> <!--#ID# #FAVICON# This changes the picture shown on the tab. Change the file name under href to your desired image e.g. href="favicon.png"-->
+</head>	
+
+<body> <!--Everything in between <body> and </body> affects the display of your Geoportfolio and what is shown-->
+	<!--Start of navigation bar-->
+	<div id="sidebar" class="sidebar-animate-open" style="display:none"> <!--MUST BE AT TOP OF DOCUMENT-->
+		<button onclick="close_sidebar()" class="sidebar-menu-button close-sidebar-button">&times;</button>
+		<a href="#topofpage" class="sidebar-menu-button mainbutton">Home</a>
+		<a href="#about" class="sidebar-menu-button mainbutton">About Me</a>
+		<a href="#academicinfo" class="sidebar-menu-button mainbutton">Portfolio</a>
+		<a href="#resume" class="sidebar-menu-button mainbutton">Resume</a>
+		<a href="#footer" class="sidebar-menu-button mainbutton">Contact Information</a>
+		<div class="other-sidebar-info">
+			<table class="sidebar-contact-table"> 
+				<tr>
+					<td>
+						<a href="https://www.linkedin.com/in/edward-hill-9364a1285" target="_blank"><img src="linkedin.png" class="sidebar-images"></a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page -->
+					</td>
+					<td>
+						<a href="https://www.linkedin.com/in/edward-hill-9364a1285" target="_blank">LinkedIn</a> <!-- #ID# #LINKEDIN# Change LinkedIn link to one of your profile page-->
+					</td>	
+				</tr>
+			</table>
+		</div>
+	</div>
+	<!--End of navigation bar-->
+
+	<div class="header"> <!--Code for Header that opens the sidebar. DO NOT TOUCH-->
+		<button class="sidebar-menu-button open-sidebar-button" onclick="open_sidebar()">&#9776;</button>
+	</div>
+	<div class="mapbgdiv" id="topofpage">
+		<img src="mapwelcomemod.jpg" alt="map" class="mapbg">
+		<div class="title">
+			<h1>Edward Hill's Geoportfolio</h1><!-- #ID# #NAME# INSERT YOUR NAME HERE-->
+		</div>
+	</div>
+
+	<!--ABOUT-->
+	<div class="intro bar" id="about"><h2>About Me</h2></div> <!-- #ID# #INTROHEADING# Change the text of the introduction bar here-->
+	<div class="about me">
+		Hello everyone! My name is Edward Hill and I am a 4th year student studying Surveying at RMIT University. I am also working casually as a survey assistant at Mackie 
+		Surveying. 
+		<p>
+		I find surveying interesting because there is a combination of office work and fieldwork, making it a diverse and rewarding career. I enjoy the variety of work that the surveying
+		industry has to offer and there are not many professions out there that have both outdoors and office work, which makes it one of a kind. 
+		</p>
+		<p>
+		My hobbies include cycling and going on long walks. On this website you can find my portfolio, my resume and my contact information. Do feel free to explore around! 
+		</p>	
+	<img src="self-portrait.jpg" class="self-portrait"> 
+	<!-- #ID# #SELFPORTRAIT# Change the img src name to match the name of your own self-portrait or delete my image and name your image the same name and place it in the same folder -->
+	</div>
+	
+	<!--PORTFOLIO-->
+	<div class="pagetitle" id="academicinfo">
+        <span class="title-ul">Portfolio</span>
+    </div>
+
+	<!--SUBJECT 1-->
+	
+	<div class="bar"><h2>Work Experience</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		My role as a survey assistant is to collect land measurements and assist project surveyors in various tasks mainly in the Cadastral Surveying field. These tasks include
+		title-re-establishment surveys, feature and level surveys, subdivisions/as-builts and set-out surveys.  
+	<img src="Surveying Equipment.jpg" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+	
+	<!--SUBJECT 2-->
+
+	<div class="bar"><h2>Applied Geospatial Techniques</h2></div> <!-- #ID# #SUBJECT# Change the text to fit a subject you gave done yourself-->
+	<div class="academic-intro">
+		Applied Geospatial Techniques (AGT) was a practical and interesting subject that I did in my first year at RMIT. It drew upon knowledge from Surveying, Cartography
+		and Geographic Information Systems (GIS). Our task was to create a proposal of an amphitheatre at Deep Rock Oval located at Yarra Bend Park by using surveying and geospatial CAD programs.    
+	<img src="Ed-Map.jpg" class="ls-image"> <!-- #ID# #PICTURE# Change to a picture of YOUR assignment images -->
+
+	<!--SUBJECT 3-->
+
+	<div class="bar"><h2>Final Year Project</h2></div>
+	<div class="academic intro">
+		I am exploring the overall state of technology of scalable GNSS precise positioning services within an open-sky and an urban area, specifically PointPerfect service 
+		compared to SouthPAN PVS service receivers over a permanent survey mark. This project will be presented to industry professionals at RMIT University.
+	<img src="Project.jpg" class="ls-image"> 
+
+	<!--Resume-->
+
+	<div class="pagetitle" id="resume">
+        <span class="title-ul">Resume</span>
+    </div>
+	<div class="academic-intro">
+	</div>
+
+	<!--COMPANY 1-->
+
+    <div class="bar"><h2>Experience</h2></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="Mackie-Surveying.PNG" class="company-logo">
+	<div class="job-title">Assistant Surveyor</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">November 2022 - Present</div> <!--Change the month and year worked-->
+	<div class="job-overview">
+	    Currently working as an Assistant Surveyor undertaking mainly field tasks at Mackie Surveying. 
+		    <li>Title re-establishment, feature and level, as-constructed and set-out surveys.</li>
+            <li>Built proficiency in using Leica robotic and non-robotic total stations, including Leica GNSS equipment.</li>
+		</p>
+	</div>
+
+	<img src="Headings.PNG" class="company-logo">
+	<div class="job-title">Assistant Surveyor</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">February 2021 - June 2021 </div> <!--Change the month and year worked-->
+	<div class="job-overview">
+        Learnt basic skills in fieldwork and office work during my time at Heading & Associates. 
+
+	<!--COMPANY 2-->
+
+	<div class="bar"><h2>Education</h2></div> <!-- #ID# #COMPANY# Change to your company name-->
+	<img src="RMIT.PNG" class="company-logo">
+	<div class="job-title">Bachelor of Applied Science (Surveying)</div> <!-- #ID# #COMPANY# Change to your company position-->
+	<div class="job-time">2020 - Present </div> <!--Change the month and year worked-->
+	<div class="job-overview">
+		I am currently in my final year and expect to graduate in November 2023. Throughout my studies, I have gained a solid 
+		understanding of survey theory and computations. 			
+		</p>
+	</div>
+
+
+
+	<!-- FOOTER--> 
+	<div class="bar" id="about"><h2>Contact Information</h2></div>
+	<footer id = "footer">
+		<section class = "split contact">
+		<section class = "alt">
+		<h3>Email:</h3>
+		<p>edward.hill246@gmail.com</a></p>
+		<h3>Phone:</h3>	
+		<p>+61406776599</a></p>
+		</section>
+		<section>
+			<h3>Linkedin:</h3>
+			<p><a href="https://www.linkedin.com/in/edward-hill-9364a1285" target="_blank">https://www.linkedin.com/in/edward-hill-9364a1285</a>
+			
+<script> //Code for opening and closing sidebar. DO NOT TOUCH OR EDIT THIS AS THIS IS WHAT WORKS THE SIDEBAR NAVIGATION
+    function open_sidebar() {
+      document.getElementById("sidebar").style.display = "block";
+    }
+    function close_sidebar() {
+      document.getElementById("sidebar").style.display = "none";
+    }
+</script>
+</html>
